@@ -134,14 +134,12 @@ class Game
         system 'clear'
         host.display_alphabets
         host.hangman.display_hangman
-        puts host.blank_lines
       else
         guess_counter += 1
         host.draw_hangman(guess_counter)
         system 'clear'
         host.display_alphabets
         host.hangman.display_hangman
-        puts host.blank_lines
       end
       puts host.blank_lines
 
